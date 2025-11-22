@@ -39,7 +39,7 @@
 
 ---
 
-# *System Architecture Diagram *
+# System Architecture Diagram 
 
 ```
 User (Console)
@@ -51,7 +51,7 @@ JSON File Storage (notes.json)
 
 ---
 
-# *Process Flow / Workflow Diagram*
+# Process Flow / Workflow Diagram*
 
 ```
 Start → Show Menu → User Choice →
@@ -61,7 +61,7 @@ Save Changes → Back to Menu → Exit
 
 ---
 
-# *Class / Component Diagram*
+# Class / Component Diagram
 
 (Not using classes → simple component structure)
 
@@ -71,7 +71,7 @@ Save Changes → Back to Menu → Exit
   * Note Operations Module
   * Storage Module (JSON)
 
-# *Sequence Diagram (Example: Create Note)*
+# Sequence Diagram 
 
 ```
 User → Menu → create_note() → save_notes() → JSON File
@@ -79,9 +79,9 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Database / Storage Design*
+# Database / Storage Design
 
-# *ER Diagram (Text Form)*
+# ER Diagram
 
 ```
 +------------------+
@@ -97,7 +97,7 @@ User → Menu → create_note() → save_notes() → JSON File
 +------------------+
 ```
 
-# *Schema Design (JSON Structure)*
+# Schema Design 
 
 ```json
 {
@@ -113,7 +113,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Overview of the Project*
+# Overview of the Project
 
 * A simple Python console application to manage personal notes.
 * Supports CRUD operations with JSON-based storage.
@@ -121,7 +121,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Features*
+# Features
 
 * Create, view, edit, delete notes.
 * Search by keyword or category.
@@ -131,7 +131,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Technologies / Tools Used*
+# Technologies / Tools Used
 
 * Python 3.8+
 * JSON for file storage
@@ -140,7 +140,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Steps to Install & Run the Project*
+# Steps to Install & Run the Project
 
 * Install Python 3.8+.
 * Download the project folder.
@@ -154,7 +154,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Instructions for Testing*
+# Instructions for Testing
 
 * Create 2–3 notes and verify they appear in the list.
 * Try editing and deleting notes.
