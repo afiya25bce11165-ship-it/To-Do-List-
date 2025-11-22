@@ -1,10 +1,6 @@
 # To-Do-List-
-Here you go!
-All sections are written **briefly** and in **bullet points**, perfect for your **project report or README**.
 
----
-
-# ✅ **Problem Statement**
+# *Problem Statement
 
 * Students need a simple way to create, store, and manage notes or tasks.
 * Existing apps are often complex or require internet access.
@@ -12,7 +8,7 @@ All sections are written **briefly** and in **bullet points**, perfect for your 
 
 ---
 
-# ✅ **Objectives**
+# *Objectives*
 
 * To allow users to create, view, edit, delete, and search notes.
 * To store notes permanently using a simple JSON file system.
@@ -22,7 +18,7 @@ All sections are written **briefly** and in **bullet points**, perfect for your 
 
 ---
 
-# ✅ **Functional Requirements**
+# *Functional Requirements*
 
 * Create a new note with title, content, category, and priority.
 * View all saved notes.
@@ -33,7 +29,7 @@ All sections are written **briefly** and in **bullet points**, perfect for your 
 
 ---
 
-# ✅ **Non-Functional Requirements**
+# *Non-Functional Requirements*
 
 * Easy to use and beginner-friendly interface.
 * Simple and readable codebase for maintainability.
@@ -43,7 +39,7 @@ All sections are written **briefly** and in **bullet points**, perfect for your 
 
 ---
 
-# ✅ **System Architecture Diagram (Brief Text Form)**
+# *System Architecture Diagram (Brief Text Form)*
 
 ```
 User (Console)
@@ -55,7 +51,7 @@ JSON File Storage (notes.json)
 
 ---
 
-# ✅ **Process Flow / Workflow Diagram**
+# *Process Flow / Workflow Diagram*
 
 ```
 Start → Show Menu → User Choice →
@@ -65,14 +61,7 @@ Save Changes → Back to Menu → Exit
 
 ---
 
-# ✅ **UML Diagrams (Brief Text)**
-
-### **Use Case Diagram**
-
-* Actor: User
-* Use Cases: Create Note, View Notes, Edit Note, Delete Note, Search Notes
-
-### **Class / Component Diagram**
+# *Class / Component Diagram*
 
 (Not using classes → simple component structure)
 
@@ -82,7 +71,7 @@ Save Changes → Back to Menu → Exit
   * Note Operations Module
   * Storage Module (JSON)
 
-### **Sequence Diagram (Example: Create Note)**
+# *Sequence Diagram (Example: Create Note)*
 
 ```
 User → Menu → create_note() → save_notes() → JSON File
@@ -90,9 +79,9 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Database / Storage Design**
+# *Database / Storage Design*
 
-# *ER Diagram (Text Form)**
+# *ER Diagram (Text Form)*
 
 ```
 +------------------+
@@ -108,7 +97,7 @@ User → Menu → create_note() → save_notes() → JSON File
 +------------------+
 ```
 
-# *Schema Design (JSON Structure)**
+# *Schema Design (JSON Structure)*
 
 ```json
 {
@@ -124,7 +113,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Overview of the Project**
+# *Overview of the Project*
 
 * A simple Python console application to manage personal notes.
 * Supports CRUD operations with JSON-based storage.
@@ -132,7 +121,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Features**
+# *Features*
 
 * Create, view, edit, delete notes.
 * Search by keyword or category.
@@ -142,7 +131,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Technologies / Tools Used**
+# *Technologies / Tools Used*
 
 * Python 3.8+
 * JSON for file storage
@@ -151,7 +140,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Steps to Install & Run the Project**
+# *Steps to Install & Run the Project*
 
 * Install Python 3.8+.
 * Download the project folder.
@@ -165,7 +154,7 @@ User → Menu → create_note() → save_notes() → JSON File
 
 ---
 
-# *Instructions for Testing**
+# *Instructions for Testing*
 
 * Create 2–3 notes and verify they appear in the list.
 * Try editing and deleting notes.
@@ -173,5 +162,3 @@ User → Menu → create_note() → save_notes() → JSON File
 * Open `notes.json` to confirm notes are saved.
 
 ---
-
-If you want these formatted into a **PDF**, **README**, or **GitHub Repo**, I can generate that too!
