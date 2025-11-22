@@ -39,7 +39,7 @@
 
 ---
 
-# *System Architecture Diagram (Brief Text Form)*
+# *System Architecture Diagram *
 
 ```
 User (Console)
