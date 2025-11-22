@@ -1,6 +1,6 @@
 # To-Do-List-
 
-# *Problem Statement
+# Problem Statement
 
 * Students need a simple way to create, store, and manage notes or tasks.
 * Existing apps are often complex or require internet access.
