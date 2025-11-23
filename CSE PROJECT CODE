@@ -1,0 +1,82 @@
+tasks = []        # list to store tasks
+task_id = 1       # auto ID counter
+
+# -----------------------------
+# Function to add a task
+# -----------------------------
+def add_task():
+    global task_id
+    name = input("Enter task: ")
+
+    task = {"id": task_id, "name": name}
+    tasks.append(task)
+
+    print("Task added!")
+    task_id += 1
+
+
+# -----------------------------
+# Function to view all tasks
+# -----------------------------
+def view_tasks():
+    if len(tasks) == 0:
+        print("No tasks available.")
+        return
+
+    print("\nYour To-Do List:")
+    for t in tasks:
+        print(f"ID: {t['id']}  |  Task: {t['name']}")
+    print()
+
+
+# -----------------------------
+# Function to remove a task
+# -----------------------------
+def remove_task():
+    if len(tasks) == 0:
+        print("No tasks to remove.")
+        return
+
+    try:
+        rid = int(input("Enter Task ID to remove: "))
+    except ValueError:
+        print("Please enter a valid number.")
+        return
+
+    for t in tasks:
+        if t["id"] == rid:
+            tasks.remove(t)
+            print("Task removed!")
+            return
+
+    print("Task ID not found.")
+
+
+# -----------------------------
+# Main menu
+# -----------------------------
+def menu():
+    while True:
+        print("\n--- TO-DO LIST MENU ---")
+        print("1. Add Task")
+        print("2. View Tasks")
+        print("3. Remove Task")
+        print("4. Exit")
+
+        choice = input("Choose an option: ")
+
+        if choice == "1":
+            add_task()
+        elif choice == "2":
+            view_tasks()
+        elif choice == "3":
+            remove_task()
+        elif choice == "4":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid option, try again.")
+
+
+# Start the program
+menu()
